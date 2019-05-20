@@ -28,7 +28,7 @@ function dec(n) {
   return --n;
 }
 
-// parses n as an integer 
+// parses n as an integer
 function makeInt(n) {
   return parseInt(n, 10)
 }
