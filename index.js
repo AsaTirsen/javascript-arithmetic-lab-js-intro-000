@@ -32,3 +32,8 @@ function dec(n) {
 function makeInt(n) {
   return parseInt(n, 10)
 }
+
+// parses n as a float with decimals preserved 
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
